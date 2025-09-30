@@ -22,4 +22,18 @@
         android:name="com.softulp.practico_3.ui.slideshow.SlideshowFragment"
         android:label="Salir"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.softulp.practico_3.ui.buscar.BuscarFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_buscar" />
+
+
+    <fragment
+        android:id="@+id/nav_detalle"
+        android:name="com.softulp.practico_3.ui.detalle.DetalleFragment"
+        android:label="Detalle del Producto"
+        tools:layout="@layout/fragment_detalle" />
+
 </navigation>
